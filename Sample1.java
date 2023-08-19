@@ -17,10 +17,10 @@ class ComputeElectricityBill
 		billpay=units*1.30;
 
     	    else if(units<300)
-		billpay=100*1.20+(units-100)*2;
+		billpay=100*1.30+(units-100)*2;
 
 	    else if(units>300)
-		billpay=100*1.20+200 *2+(units-300)*3;
+		billpay=100*1.30+200 *2+(units-300)*3;
  
               System.out.println("Bill to pay : " + billpay); 
    } 
