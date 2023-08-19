@@ -14,7 +14,7 @@ class ComputeElectricityBill
      	   double billpay=0;
 
            if(units<100)
-		billpay=units*1.20;
+		billpay=units*1.30;
 
     	    else if(units<300)
 		billpay=100*1.20+(units-100)*2;
